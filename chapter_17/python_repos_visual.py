@@ -26,7 +26,6 @@ for repo_dict in repo_dicts:
     label = f"{owner}<br />{description}"
     labels.append(label)
 
-
 # Make visualization.
 data = [{
     'type': 'bar',

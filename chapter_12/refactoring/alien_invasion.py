@@ -5,6 +5,7 @@ import pygame
 from settings import Settings
 from ship import Ship
 
+
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
 
@@ -18,7 +19,6 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         self.ship = Ship(self)
-
 
     def run_game(self):
         """Start the main loop for the game."""

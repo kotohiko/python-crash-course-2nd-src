@@ -2,6 +2,7 @@ import pygame
 
 from alien_invasion import AlienInvasion
 
+
 class AIPlayer:
 
     def __init__(self, ai_game):
@@ -32,6 +33,7 @@ class AIPlayer:
                 self.ai_game._fire_bullet()
 
             self.ai_game._update_screen()
+
 
 if __name__ == '__main__':
     ai_game = AlienInvasion()

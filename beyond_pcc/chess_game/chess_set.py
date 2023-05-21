@@ -27,7 +27,7 @@ class ChessSet:
 
         # Load all piece images.
         piece_images = piece_ss.load_grid_images(2, 6, x_margin=64,
-                x_padding=72, y_margin=68, y_padding=48)
+                                                 x_padding=72, y_margin=68, y_padding=48)
 
         # Create a Piece for each image.
         colors = ['black', 'white']
